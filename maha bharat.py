@@ -1,0 +1,20 @@
+s1="Maha Bharat"
+print(s1.upper())
+print(s1[5: ])
+print(s1[5: ]+s1[5: ]+s1[5: ])
+print("Mera " +s1[5: ])
+print("Mera " +s1[5: ]+" Mahan")
+
+s2=(s1[0:4])
+print(s2)
+s3=(s2.lower())
+s4=(s3.replace("aha","AHA"))
+print(s4)
+s5=(s1[5: ])
+print(s5)
+s6=(s5.lower())
+print(s6)
+s7=(s6.replace("harat","HARAT"))
+print(s7)
+s8=s4+s7
+print(s8)
